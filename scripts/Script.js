@@ -101,6 +101,10 @@ const buildResume = () => {
   let objectiveT = document.getElementById("objectiveT");
   objectiveT.innerHTML = objectiveField;
 
+  let hobbyField = document.getElementById("hobbyField").value;
+  let hobbyT = document.getElementById("hobbyT");
+  hobbyT.innerHTML = hobbyField;
+
   let workExperiance = document.getElementsByClassName("weField");
   let workString = '';
   for(let e of workExperiance){
